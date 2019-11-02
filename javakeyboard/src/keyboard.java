@@ -205,7 +205,7 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
         jButton81.setEnabled(false);
         jButton82.setEnabled(false);
         jButton83.setEnabled(false);
-        jButton84.setEnabled(false);
+        
         
    }
     @Override
@@ -234,8 +234,98 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+       
     }
+     public void finish(){
+        jTextField1.setEnabled(false);
+        jButton1.setEnabled(false);
+        jButton2.setEnabled(false);
+        jButton3.setEnabled(false);
+        jButton4.setEnabled(false);
+        jButton5.setEnabled(false);
+        jButton6.setEnabled(false);
+        jButton7.setEnabled(false);
+        jButton8.setEnabled(false);
+        jButton9.setEnabled(false);
+        jButton10.setEnabled(false);
+        jButton11.setEnabled(false);
+        jButton12.setEnabled(false);
+        jButton13.setEnabled(false);
+        jButton14.setEnabled(false);
+        jButton15.setEnabled(false);
+//        jButton16.setEnabled(false);
+        jButton17.setEnabled(false);
+        jButton18.setEnabled(false);
+        jButton19.setEnabled(false);
+        jButton20.setEnabled(false);
+        jButton21.setEnabled(false);
+        jButton22.setEnabled(false);
+        jButton23.setEnabled(false);
+        jButton24.setEnabled(false);
+        jButton25.setEnabled(false);
+        jButton26.setEnabled(false);
+        jButton27.setEnabled(false);
+        jButton28.setEnabled(false);
+        jButton29.setEnabled(false);
+        jButton30.setEnabled(false);
+        jButton31.setEnabled(false);
+        jButton32.setEnabled(false);
+        jButton33.setEnabled(false);
+        jButton34.setEnabled(false);
+        jButton35.setEnabled(false);
+        jButton36.setEnabled(false);
+        jButton37.setEnabled(false);
+        jButton38.setEnabled(false);
+        jButton39.setEnabled(false);
+        jButton40.setEnabled(false);
+        jButton41.setEnabled(false);
+        jButton42.setEnabled(false);
+        jButton43.setEnabled(false);
+        jButton44.setEnabled(false);
+        jButton45.setEnabled(false);
+        jButton46.setEnabled(false);
+        jButton47.setEnabled(false);
+        jButton48.setEnabled(false);
+        jButton49.setEnabled(false);
+        jButton50.setEnabled(false);
+        jButton51.setEnabled(false);
+        jButton52.setEnabled(false);
+        jButton53.setEnabled(false);
+        jButton54.setEnabled(false);
+        jButton55.setEnabled(false);
+        jButton56.setEnabled(false);
+        jButton57.setEnabled(false);
+        jButton58.setEnabled(false);
+        jButton59.setEnabled(false);
+        jButton60.setEnabled(false);
+        jButton61.setEnabled(false);
+        jButton62.setEnabled(false);
+        jButton63.setEnabled(false);
+        jButton64.setEnabled(false);
+        jButton65.setEnabled(false);
+        jButton66.setEnabled(false);
+        jButton67.setEnabled(false);
+        jButton68.setEnabled(false);
+        jButton69.setEnabled(false);
+        jButton70.setEnabled(false);
+        jButton71.setEnabled(false);
+        jButton72.setEnabled(false);
+        jButton73.setEnabled(false);
+        jButton74.setEnabled(false);
+        jButton75.setEnabled(false);
+        jButton76.setEnabled(false);
+        jButton77.setEnabled(false);
+        jButton78.setEnabled(false);
+        jButton79.setEnabled(false);
+        jButton80.setEnabled(false);
+        jButton81.setEnabled(false);
+        jButton82.setEnabled(false);
+        jButton83.setEnabled(false);
+        jButton84.setEnabled(false);
+        jButton85.setEnabled(false);
+            
+            
+        }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -341,9 +431,12 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
         jButton84 = new javax.swing.JButton();
         label2 = new java.awt.Label();
         jButton85 = new javax.swing.JButton();
+        jButton86 = new javax.swing.JButton();
+        jTextField2 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("KeyBoard");
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -975,6 +1068,18 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
             }
         });
 
+        jButton86.setText("Finish");
+        jButton86.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton86ActionPerformed(evt);
+            }
+        });
+
+        jTextField2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(204, 0, 0));
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2.setDisabledTextColor(new java.awt.Color(0, 0, 0));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -1140,7 +1245,9 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jButton84)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jButton86, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(7, 7, 7)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -1170,7 +1277,7 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 910, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(blHour, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, 0)
@@ -1185,17 +1292,17 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
                                 .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, 0)
                                 .addComponent(blTic, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField2))))
                 .addContainerGap(35, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(73, 73, 73)
+                        .addGap(21, 21, 21)
                         .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1205,12 +1312,16 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
                             .addComponent(blHour, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(label6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(blSec, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(blTic, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(blTic, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jTextField2))
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton84, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton86, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -1404,13 +1515,8 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
-        int i = 0;
+        
         jTextField1.setText(jTextField1.getText() + "Q" );
-        jTextField1.setSelectionStart(i);
-        
-
-        
-        
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
@@ -1730,14 +1836,13 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
 
     private void jButton84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton84ActionPerformed
         // TODO add your handling code here:
-        
-        disable();
+          disable();
         RUN_TIME = false;
     }//GEN-LAST:event_jButton84ActionPerformed
 
     private void jButton85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton85ActionPerformed
         // TODO add your handling code here:
-        
+        jTextField2.setText("");
         enable();
         tic = 0;
         sec = 0;
@@ -1754,6 +1859,14 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
         // TODO add your handling code here:
         jTextField1.setText(jTextField1.getText() + " ");
     }//GEN-LAST:event_jButton59ActionPerformed
+
+    private void jButton86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton86ActionPerformed
+        // TODO add your handling code here:
+        finish();
+        RUN_TIME = false;
+        jTextField2.setText("Hour"+":"+hour+"--"+"Min"+":"+min+"--"+"Sec"+":"+sec+"--"+"Tic"+":"+tic);
+        
+    }//GEN-LAST:event_jButton86ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1880,8 +1993,10 @@ public class keyboard extends javax.swing.JFrame implements Runnable {
     private javax.swing.JButton jButton83;
     private javax.swing.JButton jButton84;
     private javax.swing.JButton jButton85;
+    private javax.swing.JButton jButton86;
     private javax.swing.JButton jButton9;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     private java.awt.Label label1;
     private java.awt.Label label2;
     private java.awt.Label label3;
